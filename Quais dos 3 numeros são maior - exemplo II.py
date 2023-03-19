@@ -10,3 +10,4 @@ elif nun3>nun1 and nun3>nun2:
     print("O numero: ",nun3,"e o maior de todos")
 elif nun1 == nun2 and nun3:
     print("são todos iguais, não temos resultado")
+# Fim
