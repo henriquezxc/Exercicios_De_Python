@@ -1,6 +1,6 @@
 # Valor que custa a hora do trabalhador.
-valor_horas = float(input('Digite Quando você ganha por horas trabalhadas: '))
-# valor que ele ganha por horas:
+valor_horas = float(input('Digite Quanto você ganha por horas trabalhadas: '))
+# Quantas horas ele trabalhou:
 horas_trabalhadas = float(input('Digite quantas horas você trabalhou: '))
 # Variavel que soma horas trabalhadas com o valor da hora.
 salario = valor_horas*horas_trabalhadas
