@@ -7,8 +7,8 @@ salario = valor_horas*horas_trabalhadas
 # Variavel que calcula o salario liquido usado no ultimo print.
 liquido= salario*76/100
 # Print com todos os resultados.
-print('Seu salario bruto R$:',salario)
-print('Imposto de renda R$:',salario*11/100)
-print('INSS R$:',salario*8/100)
-print('Sindicato R$:',salario*5/100)
-print('Salario liquido R$:',liquido)
+print('Seu salario bruto R$:''%.2f'% salario)
+print('Imposto de renda R$:','%.2f'% (salario*11/100))
+print('INSS R$:','%.2f'% (salario*8/100))
+print('Sindicato R$:','%.2f'%(salario*5/100))
+print('Salario liquido R$:''%.2f'%liquido)
