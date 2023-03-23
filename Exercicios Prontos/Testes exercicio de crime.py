@@ -17,4 +17,13 @@ if contadorSIM in range (0,5):
         contadorSIM +=1
     if crime5 == 'sim':
         contadorSIM +=1
-print(contadorSIM)
+if contadorSIM ==2:
+    print('Você e Susteito.')
+if contadorSIM ==3:
+    print('Você e Cumplice.')
+if contadorSIM ==4:
+    print('Você e Cumplice.')
+if contadorSIM ==5:
+    print('Você e um Assasino.')
+if contadorSIM ==0:
+    print('Você e inocente')
