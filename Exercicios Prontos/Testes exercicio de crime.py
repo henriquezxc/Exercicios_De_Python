@@ -27,3 +27,4 @@ if contadorSIM ==5:
     print('Você e um Assasino.')
 if contadorSIM ==0:
     print('Você e inocente')
+    # Fim
