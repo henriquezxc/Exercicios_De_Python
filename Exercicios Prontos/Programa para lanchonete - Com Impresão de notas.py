@@ -29,6 +29,11 @@ somar3= (tres*quantidade)
 somar4= (quatro*quantidade)
 somar5= (cinco*quantidade)
 
+import datetime
+Horas = datetime.datetime.now()
+Data_formatada = Horas.strftime("%d/%m/%y")
+Hora_formatada = Horas.strftime("%H:%M:%S")
+
 if codigo ==1:
     um * quantidade
     print('-------------------------------------------------')
@@ -38,6 +43,7 @@ if codigo ==1:
     if notafiscal1 in ('sim','SIM','Sim'):
         print('_______________________')
         print(' N O T A   F I S C A L ')
+        print(f' {Data_formatada}     {Hora_formatada}')
         print('Lanchonete Best Lanches')
         print('Produto Selecionado: - Cachorro Quente:')
         print('Código Do produto -------------------',codigo)
@@ -58,6 +64,7 @@ if codigo ==2:
         quantidade = quantidade
         print('_______________________')
         print(' N O T A   F I S C A L ')
+        print(f' {Data_formatada}     {Hora_formatada}')
         print('Lanchonete Best Lanches')
         print('Produto Selecionado --------- X-Salada:')
         print('Código Do produto -------------------',codigo)
@@ -77,6 +84,7 @@ if codigo ==3:
     if notafiscal3 in ('sim','SIM','Sim'):
         print('_______________________')
         print(' N O T A   F I S C A L ')
+        print(f' {Data_formatada}     {Hora_formatada}')
         print('Lanchonete Best Lanches')
         print('Produto Selecionado ---------- X-Bacon:')
         print('Código Do produto -------------------',codigo)
@@ -96,6 +104,7 @@ if codigo ==4:
     if notafiscal4 in ('sim','SIM','Sim'):
         print('_______________________')
         print(' N O T A   F I S C A L ')
+        print(f' {Data_formatada}     {Hora_formatada}')
         print('Lanchonete Best Lanches')
         print('Produto Selecionado -- Torrada Simples:')
         print('Código Do produto -------------------',codigo)
@@ -115,6 +124,7 @@ if codigo ==5:
     if notafiscal5 in ('sim','SIM','Sim'):
         print('_______________________')
         print(' N O T A   F I S C A L ')
+        print(f' {Data_formatada}     {Hora_formatada}')
         print('Lanchonete Best Lanches')
         print('Produto Selecionado ----- Regrigerante:')
         print('Código Do produto -------------------',codigo)
