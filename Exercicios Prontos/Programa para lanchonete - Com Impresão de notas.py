@@ -17,17 +17,17 @@ codigo=int(input('Digite o Codigo referente ao produto Desejado: '))
 # Entrada do usuario onde e inserido a quantidade de produtos
 quantidade=int(input('Digite a Quantidade: '))
 # Variaveis com valores dos produtos armazenados
-um= 4.00
-dois= 4.50
-tres= 5.00
-quatro= 2.00
-cinco= 1.50
+um = 4.00
+dois = 4.50
+tres = 5.00
+quatro = 2.00
+cinco = 1.50
 # Variaveis onde vamos usar para imprimir as informaçoes no fim do codigo
-somar1= (um*quantidade) 
-somar2= (dois*quantidade)
-somar3= (tres*quantidade)
-somar4= (quatro*quantidade)
-somar5= (cinco*quantidade)
+somar1 = (um*quantidade) 
+somar2 = (dois*quantidade)
+somar3 = (tres*quantidade)
+somar4 = (quatro*quantidade)
+somar5 = (cinco*quantidade)
 
 import datetime
 Horas = datetime.datetime.now()
