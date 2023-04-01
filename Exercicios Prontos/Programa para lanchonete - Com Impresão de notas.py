@@ -42,7 +42,9 @@ if codigo ==1:
     print( 'Sᴇᴜ ʟᴀɴᴄʜᴇ ғɪᴄᴏᴜ ɴᴏ ᴠᴀʟᴏʀ ᴅᴇ: R$',('%.2f'%somar1))
     print('-------------------------------------------------')
     notafiscal1= input('Dᴇsᴇᴊᴀ ɪᴍᴘʀɪᴍɪʀ ᴀ ɴᴏᴛᴀ ғɪᴄᴀʟ ᴅᴇsᴛᴀ ᴄᴏᴍᴘʀᴀ? SIM ᴏᴜ NÃO ?:')
-    if notafiscal1 in ('sim','SIM','Sim'):
+    # Adicionado para fazer a entrada sempre ser Maiuscula a função .UPPER
+    sim_nao1 = notafiscal1.upper()
+    if sim_nao1 in ('SIM'):
         print('_______________________')
         print(' N O T A   F I S C A L ')
         print(f' {Data_formatada}     {Hora_formatada}')
