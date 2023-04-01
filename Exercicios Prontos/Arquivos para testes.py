@@ -11,13 +11,14 @@ Soma = Valores[0] + Valores[1]
 
 for item in range(0,4):
     Carrinho_compras = str(input('Digite Os produtos desejado: '))
-    if Carrinho_compras == 'Feijão':
+    Carrinho_Formatado = Carrinho_compras.upper
+    if Carrinho_Formatado == 'FEIJAO':
+        Lista.append(Carrinho_Formatado)
+    if Carrinho_Formatado == 'ARROZ':
         Lista.append(Carrinho_compras)
-    if Carrinho_compras == 'Arroz':
+    if Carrinho_Formatado == 'Macarrão':
         Lista.append(Carrinho_compras)
-    if Carrinho_compras == 'Macarrão':
-        Lista.append(Carrinho_compras)
-    if Carrinho_compras == 'Miojo':
+    if Carrinho_Formatado == 'Miojo':
         Lista.append(Carrinho_compras)
     
     

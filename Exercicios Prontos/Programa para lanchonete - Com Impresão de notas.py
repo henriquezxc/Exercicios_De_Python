@@ -29,8 +29,10 @@ somar3 = (tres*quantidade)
 somar4 = (quatro*quantidade)
 somar5 = (cinco*quantidade)
 
+# usada para adicionar as horas na impresão da nota fiscal final.
 import datetime
 Horas = datetime.datetime.now()
+# Fomatamos a hora e data da seguinte forma.
 Data_formatada = Horas.strftime("%d/%m/%y")
 Hora_formatada = Horas.strftime("%H:%M:%S")
 
