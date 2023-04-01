@@ -24,8 +24,9 @@ for i in range(0,3):
         Carrinho.append (Valores[2])
 # Imprimir a soma do carrinho usando a função "SUM".
 soma = sum(Carrinho)
-print('%.2f'%soma)
-
+print('Total a ser pago: R$ %.2f' % soma)
+# Agradecimentos.
+print("Obrigado pela compra! Esperamos que tenha gostado dos nossos produtos. Volte sempre!")
 
 
 
