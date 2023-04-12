@@ -1,14 +1,24 @@
-# Valor que custa a hora do trabalhador.
-valor_horas = float(input('Digite Quanto você ganha por horas trabalhadas: '))
-# Quantas horas ele trabalhou:
-horas_trabalhadas = float(input('Digite quantas horas você trabalhou: '))
-# Variavel que soma horas trabalhadas com o valor da hora.
-salario = valor_horas*horas_trabalhadas
-# Variavel que calcula o salario liquido usado no ultimo print.
-liquido= salario*76/100
-# Print com todos os resultados.
-print('Seu salario bruto R$:''%.2f'% salario)
-print('Imposto de renda R$:','%.2f'% (salario*11/100))
-print('INSS R$:','%.2f'% (salario*8/100))
-print('Sindicato R$:','%.2f'%(salario*5/100))
-print('Salario liquido R$:''%.2f'%liquido)
+# Criar um programa de quanto vc ganha por horas, e horas trabalhadas no mês.
+# calcule e mostre o salario bruto
+# Descontado:
+# If 11%
+# Inss 8
+# sindicato 5%
+for i in range(0,3):
+    Nome_Funcionario = str(input('Qual seu nome: '))
+    Identificacao = int(input('Qual seu numero de identificação: '))
+    Horas_Trabalhadas = int(input('Quantas horas trabalhadas: '))
+    break
+
+Ganho_Por_Horas = 5.50
+Imposto_de_renda = 11
+Inss = 8
+Sindicato = 5
+Salario_Bruto = Horas_Trabalhadas * Ganho_Por_Horas
+Salario_Liquido = 0
+
+print(f'{Nome_Funcionario},Com identificação de numero: {Identificacao}, Seu salário bruto e de {Salario_Bruto}')
+print(Salario_Liquido)
+
+
+
