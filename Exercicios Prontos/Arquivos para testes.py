@@ -25,7 +25,7 @@ for i in range(0,3):
 # Imprimir a soma do carrinho usando a função "SUM".
 soma = sum(Carrinho)
 print('%.2f'%soma)
-
+#
 
 
 
