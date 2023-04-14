@@ -1,39 +1,39 @@
-nun1=int(input("DIgite o primeiro numero: "))
-nun2=int(input("Digite o segundn numero: "))
-nun3=int(input("Digite o terçeiro numero: "))
+Numero1=int(input("DIgite o primeiro numero: "))
+Numero2=int(input("Digite o segundn numero: "))
+Numero3=int(input("Digite o terçeiro numero: "))
 
-# Aqui verificamos quem e maior:
-if nun1>nun2 and nun1>nun3:
+# Aqui verificamos quem e MAIOR:
+if Numero1>Numero2 and Numero1>Numero3:
     print("----------------------")
-    print("O maior numero e:",nun1,)
+    print("O maior numero e:",Numero1,)
     print("----------------------")
-elif nun2>nun1 and nun2>nun3:
+elif Numero2>Numero1 and Numero2>Numero3:
     print("----------------------")
-    print("O maior numero e:",nun2)
+    print("O maior numero e:",Numero2)
     print("----------------------")
-elif nun3>nun1 and nun3>nun2:
+elif Numero3>Numero1 and Numero3>Numero2:
     print("----------------------")
-    print("O maior numero e:",nun3)
+    print("O maior numero e:",Numero3)
     print("----------------------")
-elif nun1 == nun2 and nun3:
+elif Numero1 == Numero2 and Numero3:
     print("------------------------------------------------")
     print("São todos iguais, Por isso não temos resultados.")
     print("------------------------------------------------")
 
-# Criei essa linha para ver quem e o menor da lista:
-if nun1<nun2 and nun1<nun3:
+# Criei essa linha para ver quem e o MENOR da lista:
+if Numero1<Numero2 and Numero1<Numero3:
     print("---------------------")
-    print("o menor numero e",nun1)
+    print("o menor numero e",Numero1)
     print("---------------------")
-elif nun1<nun2 and nun1<nun3:
+elif Numero1<Numero2 and Numero1<Numero3:
     print("----------------------")
-    print("O menor numero e:",nun1)
+    print("O menor numero e:",Numero1)
     print("----------------------")
-elif nun2<nun1 and nun2<nun3:
+elif Numero2<Numero1 and Numero2<Numero3:
     print("----------------------")
-    print("O menor numero e:",nun2)
+    print("O menor numero e:",Numero2)
     print("----------------------")
-elif nun3<nun1 and nun3<nun2:
+elif Numero3<Numero1 and Numero3<Numero2:
     print("----------------------")
-    print("O menor numero e: ",nun3)
+    print("O menor numero e: ",Numero3)
     print("----------------------")

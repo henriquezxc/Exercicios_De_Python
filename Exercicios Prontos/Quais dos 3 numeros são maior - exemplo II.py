@@ -1,13 +1,15 @@
-nun1=int(input("DIgite o primeiro numero: "))
-nun2=int(input("Digite o segundn numero: "))
-nun3=int(input("Digite o terçeiro numero: "))
+# Entrada dos numero que no fim vamos ver quem e o maior deles.
+Numero1=int(input("DIgite o Primeiro numero: "))
+Numero2=int(input("Digite o Segundo numero: "))
+Numero3=int(input("Digite o Terçeiro numero: "))
 
-if nun1>nun2 and nun1>nun3:
-    print("O numero: ",nun1,"e o maior de todos")
-elif nun2>nun1 and nun2>nun3:
-    print("O numero: ",nun2, "e o maior de todos")
-elif nun3>nun1 and nun3>nun2:
-    print("O numero: ",nun3,"e o maior de todos")
-elif nun1 == nun2 and nun3:
+# Usamos a condição 'IF' para fazer a comparação das entradas.
+if Numero1>Numero2 and Numero1>Numero3:
+    print("O numero: ",Numero1,"e o maior de todos")
+elif Numero2>Numero1 and Numero2>Numero3:
+    print("O numero: ",Numero2, "e o maior de todos")
+elif Numero3>Numero1 and Numero3>Numero2:
+    print("O numero: ",Numero3,"e o maior de todos")
+elif Numero1 == Numero2 and Numero3:
     print("são todos iguais, não temos resultado")
 # Fim
