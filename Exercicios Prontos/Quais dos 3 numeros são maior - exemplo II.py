@@ -1,7 +1,7 @@
 # Entrada dos numero que no fim vamos ver quem e o maior deles.
-Numero1=int(input("DIgite o Primeiro numero: "))
-Numero2=int(input("Digite o Segundo numero: "))
-Numero3=int(input("Digite o Terçeiro numero: "))
+Numero1 = int(input("DIgite o Primeiro numero: "))
+Numero2 = int(input("Digite o Segundo numero: "))
+Numero3 = int(input("Digite o Terçeiro numero: "))
 
 # Usamos a condição 'IF' para fazer a comparação das entradas.
 if Numero1>Numero2 and Numero1>Numero3:

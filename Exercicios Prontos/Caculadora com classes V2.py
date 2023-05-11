@@ -15,6 +15,7 @@ class Calcular():
     def Dividir(self):
         return self.numero1 / self.numero2
 
+
 def App():
     Entrada_Temp = (input('Deseja fazer outro cálculo? (SIM) ou (NÃO):').upper())
     if Entrada_Temp == 'SIM':
